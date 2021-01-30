@@ -13,6 +13,7 @@ public class MyClient extends JFrame {
     private ServerService serverService;
 
     public MyClient(String login, String password) {
+        // сделано на swing
         super(login);
         serverService = new SocketServerService();
         serverService.setLogin(login);
