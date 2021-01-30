@@ -22,15 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="375676e2-6239-4ccb-b437-fb6eeb1a158b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="375676e2-6239-4ccb-b437-fb6eeb1a158b" name="Default Changelist" comment="Lesson7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/ServerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ServerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/SocketServerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/SocketServerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/MyServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +39,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson7_1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -65,10 +69,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Application.ClientApp">
     <configuration name="ClientApp" type="Application" factoryName="Application" singleton="true" nameIsGenerated="true">
@@ -121,6 +125,35 @@
       <option name="presentableId" value="Default" />
       <updated>1611765162316</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lesson7">
+      <created>1612003987054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612003987054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lesson7">
+      <created>1612004852056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612004852056</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson7">
+      <created>1612004935453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612004935453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson7">
+      <created>1612005302480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612005302480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +168,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson7" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="167" y="0" key="#Project_Structure" timestamp="1611999679375">
       <screen x="0" y="0" width="1366" height="728" />
@@ -148,10 +185,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1611857434369" />
-    <state x="549" y="264" key="Github.ShareDialog" timestamp="1611812346468">
+    <state x="456" y="233" key="Github.CreatePullRequestDialog" timestamp="1612005814010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="549" y="264" key="Github.ShareDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1611812346468" />
+    <state x="456" y="233" key="Github.CreatePullRequestDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1612005814010" />
+    <state x="549" y="264" key="Github.ShareDialog" timestamp="1612004807690">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="549" y="264" key="Github.ShareDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1612004807690" />
     <state x="441" y="64" key="Github.UntrackedFilesDialog" timestamp="1611812367028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -200,10 +241,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="217" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1611766437923" />
-    <state x="188" y="0" key="SettingsEditor" timestamp="1611897265237">
+    <state x="188" y="0" key="SettingsEditor" timestamp="1612005779591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="188" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1611897265237" />
+    <state x="188" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1612005779591" />
+    <state x="279" y="99" key="Vcs.Push.Dialog.v2" timestamp="1612005471338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="279" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1612005471338" />
+    <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612004925426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="504" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1612004925426" />
     <state x="343" y="164" key="run.anything.popup" timestamp="1611766497332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
