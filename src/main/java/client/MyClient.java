@@ -12,19 +12,20 @@ public class MyClient extends JFrame {
 
     private ServerService serverService;
 
-    public MyClient() {
-        super("Чат");
+    public MyClient(String login, String password) {
+        super(login);
         serverService = new SocketServerService();
+        serverService.setLogin(login);
+        serverService.setPassword(password);
         serverService.openConnection();
-
         JPanel jPanel = new JPanel();
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
-        jPanel.setLayout(new BoxLayout(jPanel, BoxLayout.X_AXIS));
+        jPanel.setLayout(new BoxLayout(jPanel, BoxLayout.Y_AXIS));
         jPanel.setSize(300, 50);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
         setBounds(400, 400, 500, 500);
-        setBounds(400, 400, 500, 300);
+        setBounds(400, 400, 500, 500);
 
         TextArea mainChat = new TextArea();
         mainChat.setSize( 100, 300);
@@ -65,8 +66,8 @@ public class MyClient extends JFrame {
 
     private void printToUI(TextArea mainChat, Message message) {
         mainChat.append("\n");
-        mainChat.append(message.getNick()+" написал: "+message.getMessage());
-        mainChat.append(message.getNick() + " написал: " + message.getMessage());
+        String autor = (message.getNick() != null) ? message.getNick() : "Сервер";
+        mainChat.append( autor.concat(" написал: ").concat(message.getMessage()));
     }
 
 }

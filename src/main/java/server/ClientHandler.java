@@ -39,7 +39,7 @@ public class ClientHandler {
         myServer.unsubscribe(this);
         Message message = new Message();
         message.setMessage(nick+" вышел из чата");
-        myServer.broadcastMessage(message);
+        myServer.broadcastMessage(message,this);
         try {
             dataOutputStream.close();
             dataInputStream.close();
@@ -56,11 +56,11 @@ public class ClientHandler {
                 String nick = myServer.getAuthService().getNickByLoginAndPass(message.getLogin(), message.getPassword());
                 if (nick != null && !myServer.isNickBusy(nick)) {
                     message.setAuthenticated(true);
+                    myServer.subscribe(this);
                     dataOutputStream.writeUTF(new Gson().toJson(message));
                     Message broadcastMsg = new Message();
                     broadcastMsg.setMessage(nick + " вошел в чат");
-                    myServer.broadcastMessage(broadcastMsg);
-                    myServer.subscribe(this);
+                    myServer.broadcastMessage(broadcastMsg,this);
                     this.nick = nick;
                     return;
                 }
@@ -78,7 +78,7 @@ public class ClientHandler {
             if ("/end".equals(message.getMessage())) {
                 return;
             }
-            myServer.broadcastMessage(message);
+            myServer.broadcastMessage(message,this);
         }
     }
 

@@ -16,8 +16,8 @@ public class SocketServerService implements ServerService {
     private DataOutputStream dataOutputStream;
     private DataInputStream dataInputStream;
     private boolean isConnected = false;
-    private final String login = "ivan";
-    private final String password = "password";
+    private String login;
+    private String password;
 
     public boolean isConnected() {
         return isConnected;
@@ -54,6 +54,16 @@ public class SocketServerService implements ServerService {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void setLogin(String log) {
+        this.login = log;
+    }
+
+    @Override
+    public void setPassword(String pass) {
+        this.password = pass;
     }
 
     @Override
